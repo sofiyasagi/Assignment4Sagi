@@ -1,0 +1,160 @@
+body {
+  font-family: 'Heebo', sans-serif;
+  background-image: url(plainb.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.image {
+  width: 40%;
+  float: right;
+}
+.image img {
+  width: auto;
+  height: auto;
+  position: fixed;
+}
+.col-lg-6 {
+  width: 60%
+  height: 100%;
+  float: left;
+  padding: 1 30px;
+}
+h1 {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.about-me {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.quote {
+  margin-left: 30px;
+  font-style: italic;
+}
+.me {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.social-media img {
+  height: 30px;
+  margin-right: 15px;
+}
+.social-media {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.card-deck {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.cosmo{
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 8px;
+  width: 150px;
+  height: 200px;
+}
+.cosmo1 {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 8px;
+  width: 230px;
+  height: 380px;
+}
+.cosmo0 {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 8px;
+  width: 280px;
+  height: 380px;
+}
+h2 {
+  margin-left: 20px;
+  margin-top: 38px;
+  margin-bottom: 30px;
+}
+.carousel {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.cosmo3 {
+  margin-left: 20px;
+  margin-right: 15px;
+  margin-top: 8px;
+  width: 170px;
+  height: 250px;
+}
+.text {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.n {
+  margin-left:20px;
+}
+.btn {
+  margin-left:20px;
+}
+h3 {
+  font-size: 18px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+.register {
+  margin-left: 30px;
+  margin-bottom: 15px;
+  width: 35%;
+  padding: 30px;
+  font-size: 20px;
+  background-color: ghostwhite;
+}
+.navbar-text {
+  margin-left: 600px;
+  font-style: italic;
+}
+.fa {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.italics1 {
+  margin-left: 540px;;
+  font-style: italic;
+  margin-top: 1px;
+}
+#TPOS1 {
+  margin-left: 450px;
+}
+#TPOS {
+  margin-left: 540px;
+}
+#oldfashion {
+  margin-left: 550px;
+  width: 360px;
+  height: 550px;
+}
+#TPOS2 {
+  margin-left: 640px;
+}
+#myBtn {
+ margin-left: 680px;
+ display: inline-block;
+ padding: 10px 20px;
+ font-size: 20px;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ outline: none;
+ color: white;
+ background-color: grey;
+ border: none;
+ border-radius: 15px;
+ box-shadow: 0 9px #999;
+}
+#myBtn:hover {background-color: #3e8e41}
+
+#myBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

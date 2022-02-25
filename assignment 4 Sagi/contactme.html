@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YOSN - Your Own Stylist Nomikumao</title>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylecon.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F4F7FE;"
+    <a class="navbar-brand" href="#"><i class="fas fa-vest-patches" ></i> YOSN </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="site1.html"> #Who_Am_I <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="thepowerofstyle.html"> #Metamorphose </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="inspire.html"> #Inspire_Yourself </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactme.html"> #Contact_Me </a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+     Let's be on the same Fashion Wave
+     </span>
+    </div>
+  </nav>
+
+
+
+   <!-- Registration Form Practice-->
+
+    <h2 id="Register_Form">#Register_Right_Now!</h2>
+    <h3 id="good">Don't miss any news</h3>
+    <div class="register">
+      <form name="myform" action="site1.html" method="post" onsubmit="return validateform()">
+      Username:<br> <input type="text" name="name"><br><br>
+      Password:<br> <input type="password" name="password"><br><br>
+      Confirm password:<br> <input type="password" name="passwordtwo"><br><br>
+      <input type="submit" class="registerbtn">
+
+      </form>
+    </div>
+    <script>
+      function validateform() {
+        var name=document.myform.name.value;
+        var password=document.myform.password.value;
+        var passwordtwo=document.myform.passwordtwo.value;
+         if(name==null || name==""){
+          alert("Username field can't be blank!");
+          return false;
+        } if(password==null || password==""){
+          alert("Password field can't be blank!");
+          return false;
+        } if(passwordtwo==null || passwordtwo==""){
+           alert("Please confirm your password.");
+           return false;
+        } else if (password!=passwordtwo) {
+          alert("Passwords did not match");
+          return false;
+        } else {
+          alert("You have registered succesfully!");
+        }
+      }
+      function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+    </script>
+
+
+  </body>
+</html>
